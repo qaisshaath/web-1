@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #00aaff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* List Styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+/* Hobby Section */
+#hobbies ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hobby-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+#hobbies a {
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+}
+
+#hobbies a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #005f99;
+}
+
+/* Footer Section */
+#projects a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007acc;
+    font-weight: bold;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
